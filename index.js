@@ -6,7 +6,7 @@ const knex = require('knex');
 const knexConfig = {
   client: 'sqlite3',
   connection: {
-    filename: './data/rolex.db3',
+    filename: './dev.sqlite3',
   },
   useNullAsDefault: true, // needed for sqlite
 };
